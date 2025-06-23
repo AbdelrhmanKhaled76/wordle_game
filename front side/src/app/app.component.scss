@@ -1,0 +1,23 @@
+@keyframes myAnimation {
+    0% {
+        background-color: rgba(228, 41, 41, 0.712);
+        color: white;
+        transform: rotate(45deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.animation {
+    animation-name: myAnimation;
+    animation-timing-function: ease-in-out;
+    animation-duration: 300ms;
+    animation-direction: alternate;
+}
